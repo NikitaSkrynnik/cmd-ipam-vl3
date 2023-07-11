@@ -31,13 +31,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/api/pkg/api/ipam"
-	"github.com/networkservicemesh/sdk/pkg/ipam/vl3ipam"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/opentelemetry"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/NikitaSkrynnik/api/pkg/api/ipam"
+	"github.com/NikitaSkrynnik/sdk/pkg/ipam/vl3ipam"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/opentelemetry"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/tracing"
 )
 
 // Config represents the configuration for cmd-map-ip-k8s application
